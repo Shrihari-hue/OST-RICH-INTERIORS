@@ -3315,3 +3315,138 @@ select {
 .section-expertise .expertise-grid {
   padding: 0 2rem 4rem;
 }
+
+/* ═══════════════════════════════════════════════
+   MOBILE FIXES — reduce congestion on phones
+   ═══════════════════════════════════════════════ */
+
+@media (max-width: 760px) {
+
+  /* ── Project slider: stack vertically ── */
+  .project-slider {
+    flex-direction: column;
+    min-height: auto;
+    margin-right: 0;
+    gap: 0;
+  }
+
+  .ps-stage {
+    width: calc(100% + 2.2rem);
+    margin-left: -1.1rem;
+    margin-right: -1.1rem;
+    height: 62vw;
+    min-height: 220px;
+    order: -1;
+  }
+
+  .ps-left {
+    width: 100%;
+    padding: 1.75rem 0 1.5rem;
+  }
+
+  .ps-desc {
+    max-width: none;
+  }
+
+  /* ── Expertise cards: stack image above content ── */
+  .expertise-card {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+
+  .expertise-card-image {
+    height: 52vw;
+    min-height: 180px;
+    border-radius: 18px 18px 0 0;
+  }
+
+  .expertise-card-content {
+    padding: 1.35rem 1.25rem 1.35rem;
+  }
+
+  /* ── Expertise grid: single column with more gap ── */
+  .expertise-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 0 0 3rem !important;
+  }
+
+  /* ── Section spacing: more breathing room ── */
+  .section {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .section-about,
+  .section-expertise,
+  .section-leadership {
+    padding-top: 2rem;
+  }
+
+  /* ── Leadership grid: single column with gap ── */
+  .leadership-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  /* ── CTA card: more internal spacing ── */
+  .cta-card {
+    gap: 1.75rem;
+    padding: 1.75rem 1.35rem;
+  }
+
+  /* ── Testimonial: more padding ── */
+  .testimonial-card {
+    padding: 1.75rem 1.35rem;
+  }
+
+  /* ── Process grid: bigger gap ── */
+  .process-grid {
+    gap: 2rem;
+  }
+
+  /* ── Signature ribbon: wrap nicely ── */
+  .signature-ribbon {
+    gap: 0.75rem 1.1rem;
+  }
+
+  .signature-ribbon span {
+    font-size: 0.82rem;
+  }
+
+  /* ── Hero: don't overcrowd the description ── */
+  .hero-description {
+    font-size: 0.94rem;
+    line-height: 1.7;
+    max-width: 38ch;
+  }
+
+  /* ── About copy: more gap ── */
+  .about-copy {
+    gap: 1.25rem;
+    padding: 2rem 1.1rem;
+  }
+
+  /* ── Feature list items: more spacing ── */
+  .feature-list {
+    gap: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* ── Project slider image shorter on very small phones ── */
+  .ps-stage {
+    height: 72vw;
+  }
+
+  /* ── Expertise card image shorter ── */
+  .expertise-card-image {
+    height: 58vw;
+  }
+
+  /* ── Section padding ── */
+  .section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
