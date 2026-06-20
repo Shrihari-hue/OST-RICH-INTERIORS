@@ -1,0 +1,718 @@
+- generic [active] [ref=e1]:
+  - region "We value your privacy" [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e5]:
+        - heading "We value your privacy" [level=2] [ref=e6]
+        - generic [ref=e7]:
+          - paragraph [ref=e9]: We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking "Accept All", you consent to our use of cookies.
+          - generic [ref=e10]:
+            - button "Customise" [ref=e11] [cursor=pointer]
+            - button "Reject All" [ref=e12] [cursor=pointer]
+            - button "Accept All" [ref=e13] [cursor=pointer]
+      - generic [ref=e16]:
+        - text: Powered by
+        - link "Visit CookieYes website" [ref=e17] [cursor=pointer]:
+          - /url: https://www.cookieyes.com/product/cookie-consent/?ref=cypbcyb&utm_source=cookie-banner&utm_medium=fl-branding
+          - img [ref=e18]
+  - banner [ref=e31]:
+    - generic [ref=e33]:
+      - link [ref=e35] [cursor=pointer]:
+        - /url: https://hba.com
+        - img [ref=e36]
+      - navigation [ref=e38]:
+        - list [ref=e39]:
+          - listitem [ref=e40]:
+            - link "Projects" [ref=e41] [cursor=pointer]:
+              - /url: https://hba.com/projects/
+          - listitem [ref=e42]:
+            - link "Expertise" [ref=e43] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e44]:
+            - link "Practice" [ref=e45] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e46]:
+            - link "Studios" [ref=e47] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e48]:
+            - link "Specialists" [ref=e49] [cursor=pointer]:
+              - /url: "#"
+  - search:
+    - textbox "Enter your search"
+    - button:
+      - img
+  - link [ref=e52] [cursor=pointer]:
+    - /url: "#"
+    - img [ref=e53]
+  - button "MENU"
+  - main [ref=e56]:
+    - region [ref=e58]:
+      - group "1 of 1" [ref=e60]:
+        - img [ref=e62]
+        - figure [ref=e97]
+    - generic [ref=e101]:
+      - generic [ref=e102]:
+        - heading "Who we are" [level=2] [ref=e104]
+        - figure "One&Only Portonovi, Herceg Novi, Montenegro" [ref=e106]:
+          - img "Luxurious resort spa interior with arched golden doorways and marble walls. A person in a white robe walks through the opulent, serene hallway." [ref=e107]
+          - generic [ref=e108]: One&Only Portonovi, Herceg Novi, Montenegro
+      - generic [ref=e109]:
+        - generic [ref=e110]:
+          - heading "Overview" [level=5] [ref=e112]
+          - generic [ref=e113]:
+            - heading "For over half a century, HBA has been a leading voice in the world of hospitality and design. Today, we are a dynamic and multidisciplinary creative collective, bringing decades of experience to bear across specialisms, markets and industries." [level=3] [ref=e114]
+            - link "Our Practice" [ref=e115] [cursor=pointer]:
+              - /url: https://www.hba.com/about/
+              - generic [ref=e116]: Our Practice
+        - figure "Chedi Xinchang, China" [ref=e119]:
+          - img "Rooftop terrace at dusk with soft lighting, framed by a modern building on the left and a cozy seating area on the right. Surrounded by a forested mountain backdrop." [ref=e120]
+          - generic [ref=e121]: Chedi Xinchang, China
+    - generic [ref=e122]:
+      - generic [ref=e124]:
+        - generic [ref=e125]:
+          - heading "Jumeirah Marsa Al Arab" [level=2] [ref=e126]
+          - link "View Project" [ref=e127] [cursor=pointer]:
+            - /url: https://www.hba.com/projects/jumierah-marsa-al-arab/
+            - generic [ref=e128]: View Project
+        - generic [ref=e130]:
+          - heading "HBA Dubai & Light Directions" [level=5] [ref=e131]
+          - heading "Hotel & Branded Residences" [level=5] [ref=e132]
+          - heading "Dubai" [level=5] [ref=e133]
+          - heading "2025" [level=5] [ref=e134]
+      - figure [ref=e138]:
+        - img "Outdoor seating area with beige and orange furniture, wooden chairs, and small round tables on a sunny patio. Steps lead to a potted plant and greenery." [ref=e139]
+      - generic [ref=e142]:
+        - figure [ref=e144]:
+          - img "Luxurious hotel room with a king-sized bed, elegant decor, and large windows offering a stunning city view. Warm tones and plush seating create a cozy, sophisticated ambiance." [ref=e145]
+        - figure [ref=e147]:
+          - img "Luxurious suite balcony with chic furniture overlooks the sea, featuring a view of the iconic sail-shaped hotel. The scene is serene and inviting at sunset." [ref=e148]
+    - generic [ref=e149]:
+      - generic [ref=e151]:
+        - generic [ref=e152]:
+          - heading "Conrad Tulum Riviera Maya" [level=2] [ref=e153]
+          - link "View Project" [ref=e154] [cursor=pointer]:
+            - /url: https://www.hba.com/projects/conrad-tulum-riviera-maya/
+            - generic [ref=e155]: View Project
+        - generic [ref=e157]:
+          - heading "HBA San Francisco" [level=5] [ref=e158]
+          - heading "Resort" [level=5] [ref=e159]
+          - heading "Mexico" [level=5] [ref=e160]
+          - heading "2021" [level=5] [ref=e161]
+      - figure [ref=e165]:
+        - img "Twilight scene of a luxurious hotel courtyard with palm trees and warm lighting reflecting in a large, tranquil pool, creating a serene and elegant atmosphere." [ref=e166]
+      - generic [ref=e169]:
+        - figure [ref=e171]:
+          - img "Luxurious resort lounge with wood panels, modern seating, and textured décor. Warm lighting and a large chandelier create a serene, inviting atmosphere." [ref=e172]
+        - figure [ref=e174]:
+          - img "Luxurious resort bar with wooden accents, black chandeliers, and a sleek counter lined with bottles. Cozy tone with plush seating and warm lighting." [ref=e175]
+    - generic [ref=e176]:
+      - generic [ref=e178]:
+        - generic [ref=e179]:
+          - heading "The Delmore Residences, Miami" [level=2] [ref=e180]
+          - link "View Project" [ref=e181] [cursor=pointer]:
+            - /url: https://hba.com/projects/surfside-miami/
+            - generic [ref=e182]: View Project
+        - generic [ref=e184]:
+          - heading "HBA RESIDENTIAL" [level=5] [ref=e185]
+          - heading "RESIDENCE" [level=5] [ref=e186]
+          - heading "USA" [level=5] [ref=e187]
+          - heading "IN PROGRESS" [level=5] [ref=e188]
+      - figure [ref=e192]:
+        - img "Curved modern balconies overlook a serene beach and calm ocean. Glass railings and cozy furniture evoke relaxation and luxury amidst lush palm trees." [ref=e193]
+      - generic [ref=e196]:
+        - figure [ref=e198]:
+          - img "A modern rooftop pool with a person swimming is seen from below. Sunlight reflects on the water. Palm leaves frame the scene, conveying a tropical vibe." [ref=e199]
+        - figure [ref=e201]:
+          - img "Indoor pool area with large skylight, surrounded by potted plants and modern sun loungers. The space feels serene, with trees visible outside." [ref=e202]
+    - generic [ref=e203]:
+      - generic [ref=e205]:
+        - generic [ref=e206]:
+          - heading "One&Only Portonovi, Herceg Novi" [level=2] [ref=e207]:
+            - text: One&Only Portonovi,
+            - text: Herceg Novi
+          - link "View Project" [ref=e208] [cursor=pointer]:
+            - /url: https://www.hba.com/projects/oneonly-portonovi/
+            - generic [ref=e209]: View Project
+        - generic [ref=e211]:
+          - heading "HBA Singapore" [level=5] [ref=e212]
+          - heading "Resort" [level=5] [ref=e213]
+          - heading "Montenegro" [level=5] [ref=e214]
+          - heading "2021" [level=5] [ref=e215]
+      - figure [ref=e219]:
+        - img "One&Only Portonovi's exterior featuring a luxurious coastal resort with terracotta-roofed villas, lush gardens, and pools by the sea. Majestic mountains and blue sky in the background." [ref=e220]
+      - generic [ref=e223]:
+        - figure [ref=e225]:
+          - img "Sophisticated lounge bar with a wooden counter, stylish barstools, and elegant decor. Luxurious seating area with plush chairs and warm lighting." [ref=e226]
+        - figure [ref=e228]:
+          - img "Luxurious indoor pool with reflective water, flanked by elegant stone arches. A cozy seating area and a lit fire bowl create a serene, upscale ambiance." [ref=e229]
+    - generic [ref=e232]:
+      - img [ref=e234]
+      - generic [ref=e237]:
+        - generic [ref=e238]:
+          - button "interiors" [ref=e239] [cursor=pointer]
+          - generic [ref=e240]:
+            - paragraph [ref=e241]: An industry-defining hospitality interior design practice, shaping unforgettable spaces for the world's most iconic brands
+            - link "View interiors" [ref=e242] [cursor=pointer]:
+              - /url: https://hba.com/expertise/interiors/
+              - generic [ref=e243]: View interiors
+        - button "architecture" [ref=e246] [cursor=pointer]
+        - button "art" [ref=e248] [cursor=pointer]
+        - button "digital" [ref=e250] [cursor=pointer]
+        - button "f&b" [ref=e252] [cursor=pointer]
+        - button "graphics" [ref=e254] [cursor=pointer]
+        - button "landscape" [ref=e256] [cursor=pointer]
+        - button "leisure" [ref=e258] [cursor=pointer]
+        - button "light" [ref=e260] [cursor=pointer]
+        - button "procurement" [ref=e262] [cursor=pointer]
+        - button "product" [ref=e264] [cursor=pointer]
+        - button "residential" [ref=e266] [cursor=pointer]
+        - button "resort" [ref=e268] [cursor=pointer]
+        - button "strategy" [ref=e270] [cursor=pointer]
+        - figure [ref=e271]:
+          - img "Luxurious hotel lobby with high wooden ceilings, plush seating, and warm lighting. A large, textured wall art centerpiece adds elegance. Cozy and inviting." [ref=e272]
+        - figure [ref=e273]:
+          - img "Exterior of AREIC Tower, featuring a modern high-rise building with lush greenery on balconies, adjacent to a busy bridge at sunset. The sky is a gradient of pink and purple hues, creating a tranquil yet vibrant atmosphere." [ref=e274]
+        - figure [ref=e275]:
+          - img "Large wall artwork of a woman’s profile with red dragon motifs, paired with a blue sculptural figure wearing a red blindfold at Park Hyatt Suzhou." [ref=e276]
+        - figure [ref=e277]:
+          - img "Elegant modern architecture with tall arches and illuminated interiors reflected in a tranquil pool; desert landscape visible in the background." [ref=e278]
+        - figure [ref=e279]:
+          - img "Sophisticated private club bar with velvet stools, gold accents, and intricate lighting. A server in motion enhances the elegant, lively ambiance." [ref=e280]
+        - figure [ref=e281]:
+          - img "A lift car designed with moody lighting, and a tapestry-like art piece" [ref=e282]
+        - figure [ref=e283]:
+          - img "Modern hotel building courtyard with geometric shrub patterns on white gravel. Warmly lit windows line the three-story structure, creating a serene evening ambiance." [ref=e284]
+        - figure [ref=e285]:
+          - img "A luxurious hotel lobby featuring a grand chandelier, elegant arched design elements, and rich red accents, complemented by a central table adorned with flowers, creating a sophisticated and welcoming ambiance." [ref=e286]
+        - figure [ref=e287]:
+          - img "Elegant modern hotel lounge with circular seating and a round table, enclosed by wood paneling. A striking chandelier hangs above, illuminating the space warmly." [ref=e288]
+        - figure [ref=e289]:
+          - img "Elegant living room with sage green armchairs, beige sofa, and modern decor. Open double doors lead to another room, creating an airy, sophisticated feel." [ref=e290]
+        - figure [ref=e291]:
+          - img "Luxurious living room with red walls, a sleek modern sideboard with dark wood finish, a navy sofa adorned with orange pillows and a throw, elegant lighting, and marble stairs. Sophisticated and warm." [ref=e292]
+        - figure [ref=e293]:
+          - img "Luxurious lounge with two textured armchairs, a floor lamp, and a soft landscape mural depicting trees and a stream. Cozy, elegant ambiance." [ref=e294]
+        - figure [ref=e295]:
+          - img "An aerial view of an idyllic tropical resort shows thatched-roof bungalows on stilts, connected by winding wooden walkways over a clear turquoise ocean surrounding a lush green island." [ref=e296]
+        - figure [ref=e297]:
+          - img "A cozy airline lounge area with modern seating, elegant decor, and artistic ceiling installations, creating an inviting and sophisticated atmosphere for relaxation." [ref=e298]
+    - generic [ref=e301]:
+      - generic [ref=e302]:
+        - heading "Perspectives" [level=2] [ref=e303]
+        - link "View All" [ref=e304] [cursor=pointer]:
+          - /url: https://www.hba.com/perspectives/
+          - generic [ref=e305]: View All
+      - region [ref=e308]:
+        - generic:
+          - button "Previous slide" [disabled] [ref=e309] [cursor=pointer]:
+            - img [ref=e310]
+          - button "Next slide" [ref=e312] [cursor=pointer]:
+            - img [ref=e313]
+        - generic [ref=e315]:
+          - group "1 of 23" [ref=e316]:
+            - 'link "Awards & Accolades 23.03.26 HBA retains #1 ranking – Interior Design’s 2026 Top 100 Giants Hospitality List" [ref=e317] [cursor=pointer]':
+              - /url: https://hba.com/hba-retains-1-ranking-interior-designs-2026-top-100-giants-hospitality-list/
+              - figure [ref=e318]:
+                - generic [ref=e319]: View
+                - img "Interior-Design_HBA-100-Giants_March-2026-1" [ref=e320]
+              - generic [ref=e321]:
+                - heading "Awards & Accolades" [level=5] [ref=e322]
+                - heading "23.03.26" [level=5] [ref=e323]
+              - 'heading "HBA retains #1 ranking – Interior Design’s 2026 Top 100 Giants Hospitality List" [level=4] [ref=e324]'
+          - group "2 of 23" [ref=e325]:
+            - link "Awards & Accolades 15.12.25 HBA listed on Forbes’ America’s Top Hospitality Architects & Designers 2026" [ref=e326] [cursor=pointer]:
+              - /url: https://hba.com/hba-featured-in-forbes-americas-top-hospitality-architects-designers-2026/
+              - figure [ref=e327]:
+                - generic [ref=e328]: View
+              - generic [ref=e329]:
+                - heading "Awards & Accolades" [level=5] [ref=e330]
+                - heading "15.12.25" [level=5] [ref=e331]
+              - heading "HBA listed on Forbes’ America’s Top Hospitality Architects & Designers 2026" [level=4] [ref=e332]
+          - group "3 of 23" [ref=e333]:
+            - link "Awards & Accolades 23.01.26 Fairmont Breakers Long Beach named 2025 Gold Key Awards Finalist" [ref=e334] [cursor=pointer]:
+              - /url: https://hba.com/fairmont-breakers-long-beach-a-2025-gold-key-finalist/
+              - figure [ref=e335]:
+                - generic [ref=e336]: View
+              - generic [ref=e337]:
+                - heading "Awards & Accolades" [level=5] [ref=e338]
+                - heading "23.01.26" [level=5] [ref=e339]
+              - heading "Fairmont Breakers Long Beach named 2025 Gold Key Awards Finalist" [level=4] [ref=e340]
+          - group [ref=e341]:
+            - link [ref=e342] [cursor=pointer]:
+              - /url: https://hba.com/sofitel-new-york-designed-by-hba-san-francisco-shortlisted-in-ahead-awards-americas-2026/
+              - figure [ref=e343]:
+                - generic [ref=e344]: View
+                - img [ref=e345]
+              - generic [ref=e346]:
+                - heading [level=5] [ref=e347]: Awards & Accolades
+                - heading [level=5] [ref=e348]: 03.06.26
+              - heading [level=4] [ref=e349]: Sofitel New York shortlisted in the AHEAD Awards Americas 2026
+          - group [ref=e350]:
+            - link [ref=e351] [cursor=pointer]:
+              - /url: https://hba.com/hba-appoints-four-new-partners-across-three-continents/
+              - figure [ref=e352]:
+                - generic [ref=e353]: View
+                - img [ref=e354]
+              - generic [ref=e355]:
+                - heading [level=5] [ref=e356]: Press Release
+                - heading [level=5] [ref=e357]: 21.05.26
+              - heading [level=4] [ref=e358]: HBA appoints four new partners across three continents, reinforcing the firm’s global leadership in hospitality and lifestyle design
+          - group [ref=e359]:
+            - link [ref=e360] [cursor=pointer]:
+              - /url: https://hba.com/christin-castillo-principal-at-hba-bali-hba-jakarta-speaks-at-the-2026-edition-of-iffina-powered-by-imm-cologne/
+              - figure [ref=e361]:
+                - generic [ref=e362]: View
+                - img [ref=e363]
+              - generic [ref=e364]:
+                - heading [level=5] [ref=e365]: Events
+                - heading [level=5] [ref=e366]: 29.04.26
+              - heading [level=4] [ref=e367]: Christin Castillo, Principal at HBA Bali & HBA Jakarta, speaks at the 2026 edition of IFFINA +, powered by imm cologne
+          - group [ref=e368]:
+            - link [ref=e369] [cursor=pointer]:
+              - /url: https://hba.com/conde-nast-traveler-milan-design-week/
+              - figure [ref=e370]:
+                - generic [ref=e371]: View
+              - generic [ref=e372]:
+                - heading [level=5] [ref=e373]: Media
+                - heading [level=5] [ref=e374]: 18.04.26
+              - heading [level=4] [ref=e375]: KUMIKI collection by Giorgetti, as featured in Condé Nast Traveler’s Milan Design Week round-up
+          - group [ref=e376]:
+            - link [ref=e377] [cursor=pointer]:
+              - /url: https://hba.com/wallpaper-spotlights-kumiki-hbas-second-design-collaboration-for-giorgetti/
+              - figure [ref=e378]:
+                - generic [ref=e379]: View
+                - img [ref=e380]
+              - generic [ref=e381]:
+                - heading [level=5] [ref=e382]: Media
+                - heading [level=5] [ref=e383]: 17.04.26
+              - heading [level=4] [ref=e384]: Wallpaper* spotlights KUMIKI, HBA’s second design collaboration for Giorgetti
+          - group [ref=e385]:
+            - link [ref=e386] [cursor=pointer]:
+              - /url: https://hba.com/construction-week-property-architects-hall-of-fame-recognises-alejandra-de-cordoba-estepa/
+              - figure [ref=e387]:
+                - generic [ref=e388]: View
+              - generic [ref=e389]:
+                - heading [level=5] [ref=e390]: Awards & Accolades
+                - heading [level=5] [ref=e391]: 16.04.26
+              - heading [level=4] [ref=e392]: Alejandra de Cordoba Estepa, Principal of Architecture EMEA, recognised in 2026 Architects’ Hall of Fame
+          - group [ref=e393]:
+            - link [ref=e394] [cursor=pointer]:
+              - /url: https://hba.com/light-in-the-spotlight-gerard-lee-partner-at-light-directions-on-what-hospitality-design-needs-today/
+              - figure [ref=e395]:
+                - generic [ref=e396]: View
+              - generic [ref=e397]:
+                - heading [level=5] [ref=e398]: Insights
+                - heading [level=5] [ref=e399]: 15.04.26
+              - heading [level=4] [ref=e400]: Archibuild Magazine profiles Gerard Lee, Partner at Light Directions, on what hospitality design needs today
+          - group [ref=e401]:
+            - link [ref=e402] [cursor=pointer]:
+              - /url: https://hba.com/hba-named-finalist-in-design-et-al-20th-anniversary-accolade-awards-design/
+              - figure [ref=e403]:
+                - generic [ref=e404]: View
+              - generic [ref=e405]:
+                - heading [level=5] [ref=e406]: Awards & Accolades
+                - heading [level=5] [ref=e407]: 10.04.26
+              - heading [level=4] [ref=e408]: HBA named Finalist in design et al 20th Anniversary Accolade Awards Design
+          - group [ref=e409]:
+            - link [ref=e410] [cursor=pointer]:
+              - /url: https://hba.com/chris-godfrey-co-ceo-at-hba-delivers-a-keynote-at-interior-design-forum-2026-in-shanghai/
+              - figure [ref=e411]:
+                - generic [ref=e412]: View
+              - generic [ref=e413]:
+                - heading [level=5] [ref=e414]: Events
+                - heading [level=5] [ref=e415]: 31.03.26
+              - heading [level=4] [ref=e416]: Chris Godfrey, Co-CEO at HBA delivers a keynote at Interior Design Forum 2026 in Shanghai
+          - group [ref=e417]:
+            - link [ref=e418] [cursor=pointer]:
+              - /url: https://hba.com/hba-residential-shares-how-wellness-is-redefining-ultra-luxury-residential-design-in-miami/
+              - figure [ref=e419]:
+                - generic [ref=e420]: View
+                - img [ref=e421]
+              - generic [ref=e422]:
+                - heading [level=5] [ref=e423]: Media
+                - heading [level=5] [ref=e424]: 31.03.26
+              - heading [level=4] [ref=e425]: HBA Residential shares how wellness is redefining ultra-luxury residential design in Miami
+          - group [ref=e426]:
+            - link [ref=e427] [cursor=pointer]:
+              - /url: https://hba.com/hba-and-hyundaiec-set-a-new-standard-for-luxury-residential-apgujeong-district-3-seoul/
+              - figure [ref=e428]:
+                - generic [ref=e429]: View
+                - img [ref=e430]
+              - generic [ref=e431]:
+                - heading [level=5] [ref=e432]: Media
+                - heading [level=5] [ref=e433]: 19.03.26
+              - heading [level=4] [ref=e434]: HBA and Hyundai E&C set a new standard for luxury residential in Apgujeong District 3, Seoul
+          - group [ref=e435]:
+            - link [ref=e436] [cursor=pointer]:
+              - /url: https://hba.com/a-conversation-with-katie-earl-on-the-delmore-designing-a-masterpiece/
+              - figure [ref=e437]:
+                - generic [ref=e438]: View
+              - generic [ref=e439]:
+                - heading [level=5] [ref=e440]: Media
+                - heading [level=5] [ref=e441]: 11.03.26
+              - heading [level=4] [ref=e442]: "A conversation with Katie Earl on The Delmore: designing a masterpiece"
+          - group [ref=e443]:
+            - link [ref=e444] [cursor=pointer]:
+              - /url: https://hba.com/joris-angevaare-partner-at-studiohba-speaks-at-ahice-global-hotel-industry-conferences-south-east-asia-2026/
+              - figure [ref=e445]:
+                - generic [ref=e446]: View
+                - img [ref=e447]
+              - generic [ref=e448]:
+                - heading [level=5] [ref=e449]: Events
+                - heading [level=5] [ref=e450]: 10.03.26
+              - heading [level=4] [ref=e451]: Joris Angevaare, Partner at Studio HBA, speaks at AHICE Global Hotel Industry Conferences South East Asia 2026
+          - group [ref=e452]:
+            - link [ref=e453] [cursor=pointer]:
+              - /url: https://hba.com/lesha-fernando-associate-at-hba-dubai-on-good-hospitality-design-responsible-leadership-and-enduring-legacy/
+              - figure [ref=e454]:
+                - generic [ref=e455]: View
+                - img [ref=e456]
+              - generic [ref=e457]:
+                - heading [level=5] [ref=e458]: Media
+                - heading [level=5] [ref=e459]: 03.03.26
+              - heading [level=4] [ref=e460]: Lesha Fernando, Associate at HBA Dubai, on good hospitality design, responsible leadership, and enduring legacy
+          - group [ref=e461]:
+            - link [ref=e462] [cursor=pointer]:
+              - /url: https://hba.com/mathew-lui-partner-at-hba-hong-kong-recognised-in-home-journals-top-50-2026/
+              - figure [ref=e463]:
+                - generic [ref=e464]: View
+              - generic [ref=e465]:
+                - heading [level=5] [ref=e466]: Media
+                - heading [level=5] [ref=e467]: 16.02.26
+              - heading [level=4] [ref=e468]: Mathew Lui, Partner at HBA Hong Kong, recognised in Home Journal’s Top 50 2026
+          - group [ref=e469]:
+            - link [ref=e470] [cursor=pointer]:
+              - /url: https://hba.com/prime-resi-showcases-oceanfront-interiors-at-hba-residentials-the-delmore/
+              - figure [ref=e471]:
+                - generic [ref=e472]: View
+                - img [ref=e473]
+              - generic [ref=e474]:
+                - heading [level=5] [ref=e475]: Media
+                - heading [level=5] [ref=e476]: 05.02.26
+              - heading [level=4] [ref=e477]: Prime Resi showcases oceanfront interiors at HBA Residential’s The Delmore
+          - group [ref=e478]:
+            - link [ref=e479] [cursor=pointer]:
+              - /url: https://hba.com/hba-americas-leo-bertacchinis-perspective-branded-living-a-global-shift-in-how-we-design-aspire-and-belong/
+              - figure [ref=e480]:
+                - generic [ref=e481]: View
+                - img [ref=e482]
+              - generic [ref=e483]:
+                - heading [level=5] [ref=e484]: Insights
+                - heading [level=5] [ref=e485]: 16.01.26
+              - heading [level=4] [ref=e486]: "Branded Living: a global shift in how we design, aspire and belong"
+          - group [ref=e487]:
+            - link [ref=e488] [cursor=pointer]:
+              - /url: https://hba.com/sleeper-magazine-showcases-hba-san-franciscos-lart-decoratif-inspired-vision-for-sofitel-new-york/
+              - figure [ref=e489]:
+                - generic [ref=e490]: View
+                - img [ref=e491]
+              - generic [ref=e492]:
+                - heading [level=5] [ref=e493]: Media
+                - heading [level=5] [ref=e494]: 05.01.26
+              - heading [level=4] [ref=e495]: Sleeper Magazine spotlights Art Deco interiors at Sofitel New York
+          - group [ref=e496]:
+            - link [ref=e497] [cursor=pointer]:
+              - /url: https://hba.com/co-ceo-chris-godfrey-on-hba-bringing-global-hospitality-design-to-south-koreas-high-end-housing/
+              - figure [ref=e498]:
+                - generic [ref=e499]: View
+                - img [ref=e500]
+              - generic [ref=e501]:
+                - heading [level=5] [ref=e502]: Media
+                - heading [level=5] [ref=e503]: 25.12.25
+              - heading [level=4] [ref=e504]: Co-CEO Chris Godfrey on HBA bringing global hospitality design to South Korea’s high-end housing
+          - group [ref=e505]:
+            - link [ref=e506] [cursor=pointer]:
+              - /url: https://hba.com/hba-partner-and-president-of-the-middle-east-ksa-andrew-moore-on-adapting-hotel-designs-for-branded-residences/
+              - figure [ref=e507]:
+                - generic [ref=e508]: View
+                - img [ref=e509]
+              - generic [ref=e510]:
+                - heading [level=5] [ref=e511]: Media
+                - heading [level=5] [ref=e512]: 23.12.25
+              - heading [level=4] [ref=e513]: HBA Partner and President, Middle East & KSA, Andrew Moore on adapting hotel designs for branded residences
+    - generic [ref=e518]:
+      - heading "Collective excellence" [level=2] [ref=e520]
+      - generic [ref=e521]:
+        - heading "We are a collective of talented individuals with proven pedigree. Building on our expertise in hospitality and interiors, we now offer a broad range of services with the diversity of experience, skill and style to meet any design challenge." [level=3] [ref=e522]
+        - link "Our People" [ref=e523] [cursor=pointer]:
+          - /url: https://www.hba.com/people/
+          - generic [ref=e524]: Our People
+    - generic [ref=e528]:
+      - heading "Leadership team" [level=2] [ref=e530]
+      - region [ref=e532]:
+        - generic:
+          - button "Previous slide" [disabled] [ref=e533] [cursor=pointer]:
+            - img [ref=e534]
+          - button "Next slide" [ref=e536] [cursor=pointer]:
+            - img [ref=e537]
+        - generic [ref=e539]:
+          - group "1 of 4" [ref=e540]:
+            - link "HBA | Singapore Ian Carr Partner & Co-CEO" [ref=e541] [cursor=pointer]:
+              - /url: https://hba.com/people/ian-carr/
+              - figure [ref=e542]:
+                - generic [ref=e543]: View
+              - heading "HBA | Singapore" [level=5] [ref=e545]
+              - heading "Ian Carr Partner & Co-CEO" [level=4] [ref=e546]:
+                - text: Ian Carr
+                - text: Partner & Co-CEO
+          - group "2 of 4" [ref=e547]:
+            - link "HBA | Singapore Chris Godfrey Partner & Co-CEO" [ref=e548] [cursor=pointer]:
+              - /url: https://hba.com/people/chris-godfrey/
+              - figure [ref=e549]:
+                - generic [ref=e550]: View
+                - img "Chris Godfrey" [ref=e551]
+              - heading "HBA | Singapore" [level=5] [ref=e553]
+              - heading "Chris Godfrey Partner & Co-CEO" [level=4] [ref=e554]:
+                - text: Chris Godfrey
+                - text: Partner & Co-CEO
+          - group "3 of 4" [ref=e555]:
+            - link "HBA | San Francisco Meghann Day Partner & President The Americas" [ref=e556] [cursor=pointer]:
+              - /url: https://hba.com/people/meghann-day/
+              - figure [ref=e557]:
+                - generic [ref=e558]: View
+              - heading "HBA | San Francisco" [level=5] [ref=e560]
+              - heading "Meghann Day Partner & President The Americas" [level=4] [ref=e561]:
+                - text: Meghann Day
+                - text: Partner & President The Americas
+          - group [ref=e562]:
+            - link [ref=e563] [cursor=pointer]:
+              - /url: https://hba.com/people/andrew-moore/
+              - figure [ref=e564]:
+                - generic [ref=e565]: View
+                - img [ref=e566]
+              - heading [level=5] [ref=e568]: HBA | Dubai
+              - heading [level=4] [ref=e569]: Andrew Moore Partner & President Middle East & KSA
+    - generic [ref=e575]:
+      - heading [level=2]
+      - paragraph
+    - generic [ref=e577]:
+      - generic [ref=e579]:
+        - heading "Practice" [level=5] [ref=e581]
+        - generic [ref=e582]:
+          - link "About" [ref=e584] [cursor=pointer]:
+            - /url: https://hba.com/about/
+          - link "Legacy" [ref=e586] [cursor=pointer]:
+            - /url: https://hba.com/legacy/
+          - link "People" [ref=e588] [cursor=pointer]:
+            - /url: https://hba.com/people/
+          - link "Perspectives" [ref=e590] [cursor=pointer]:
+            - /url: https://hba.com/perspectives/
+          - link "Careers" [ref=e592] [cursor=pointer]:
+            - /url: https://hba.com/careers/
+          - link "Contact" [ref=e594] [cursor=pointer]:
+            - /url: https://hba.com/contact/
+      - generic [ref=e595]:
+        - figure [ref=e596]:
+          - img [ref=e597]
+        - figure [ref=e598]:
+          - img [ref=e599]
+        - figure [ref=e600]:
+          - img [ref=e601]
+        - figure [ref=e602]:
+          - img [ref=e603]
+        - figure [ref=e604]:
+          - img [ref=e605]
+        - figure [ref=e606]:
+          - img [ref=e607]
+        - figure [ref=e608]:
+          - img [ref=e609]
+  - contentinfo [ref=e610]:
+    - generic [ref=e611]:
+      - link [ref=e614] [cursor=pointer]:
+        - /url: https://hba.com
+        - img [ref=e615]
+      - generic [ref=e617]:
+        - paragraph [ref=e619]:
+          - text: With 1,500 professionals across 29 offices in four regions, HBA collaborates with clients in more than 80 countries each year - creating iconic spaces that inspire, innovate, and elevate hospitality.
+          - link "View our fact sheet" [ref=e620] [cursor=pointer]:
+            - /url: https://hba.com/wp-content/uploads/2026/04/HBA_Fact_Sheet_2026.pdf
+          - text: View our worldwide studios for more information.
+        - generic [ref=e621]:
+          - navigation [ref=e622]:
+            - list [ref=e623]:
+              - listitem [ref=e624]:
+                - link "North America":
+                  - /url: "#"
+                - list [ref=e625]:
+                  - listitem [ref=e626]:
+                    - link "Atlanta" [ref=e627] [cursor=pointer]:
+                      - /url: https://hba.com/atlanta/
+                  - listitem [ref=e628]:
+                    - link "Los Angeles" [ref=e629] [cursor=pointer]:
+                      - /url: https://hba.com/los-angeles/
+                  - listitem [ref=e630]:
+                    - link "Miami" [ref=e631] [cursor=pointer]:
+                      - /url: https://hba.com/miami/
+                  - listitem [ref=e632]:
+                    - link "New York" [ref=e633] [cursor=pointer]:
+                      - /url: https://hba.com/new-york/
+                  - listitem [ref=e634]:
+                    - link "San Francisco" [ref=e635] [cursor=pointer]:
+                      - /url: https://hba.com/san-francisco/
+              - listitem [ref=e636]:
+                - link "Latin America":
+                  - /url: "#"
+                - list [ref=e637]:
+                  - listitem [ref=e638]:
+                    - link "Mexico City" [ref=e639] [cursor=pointer]:
+                      - /url: https://hba.com/mexico-city/
+                  - listitem [ref=e640]:
+                    - link "São Paulo" [ref=e641] [cursor=pointer]:
+                      - /url: https://hba.com/sao-paulo/
+              - listitem [ref=e642]:
+                - link "Middle East":
+                  - /url: "#"
+                - list [ref=e643]:
+                  - listitem [ref=e644]:
+                    - link "Dubai" [ref=e645] [cursor=pointer]:
+                      - /url: https://hba.com/dubai/
+                  - listitem [ref=e646]:
+                    - link "Riyadh" [ref=e647] [cursor=pointer]:
+                      - /url: https://hba.com/riyadh/
+              - listitem [ref=e648]:
+                - link "Europe":
+                  - /url: "#"
+                - list [ref=e649]:
+                  - listitem [ref=e650]:
+                    - link "Istanbul" [ref=e651] [cursor=pointer]:
+                      - /url: https://hba.com/istanbul/
+                  - listitem [ref=e652]:
+                    - link "London" [ref=e653] [cursor=pointer]:
+                      - /url: https://hba.com/london/
+                  - listitem [ref=e654]:
+                    - link "Madrid" [ref=e655] [cursor=pointer]:
+                      - /url: https://hba.com/madrid/
+              - listitem [ref=e656]:
+                - link "East Asia":
+                  - /url: "#"
+                - list [ref=e657]:
+                  - listitem [ref=e658]:
+                    - link "Beijing" [ref=e659] [cursor=pointer]:
+                      - /url: https://hba.com/beijing/
+                  - listitem [ref=e660]:
+                    - link "Guangzhou" [ref=e661] [cursor=pointer]:
+                      - /url: https://hba.com/guangzhou/
+                  - listitem [ref=e662]:
+                    - link "Hong Kong" [ref=e663] [cursor=pointer]:
+                      - /url: https://hba.com/hongkong/
+                  - listitem [ref=e664]:
+                    - link "Seoul" [ref=e665] [cursor=pointer]:
+                      - /url: https://hba.com/seoul/
+                  - listitem [ref=e666]:
+                    - link "Shanghai" [ref=e667] [cursor=pointer]:
+                      - /url: https://hba.com/shanghai/
+                  - listitem [ref=e668]:
+                    - link "Shenzhen" [ref=e669] [cursor=pointer]:
+                      - /url: https://hba.com/shenzhen/
+                  - listitem [ref=e670]:
+                    - link "Tokyo" [ref=e671] [cursor=pointer]:
+                      - /url: https://hba.com/tokyo/
+              - listitem [ref=e672]:
+                - link "Southeast Asia":
+                  - /url: "#"
+                - list [ref=e673]:
+                  - listitem [ref=e674]:
+                    - link "Bali" [ref=e675] [cursor=pointer]:
+                      - /url: https://hba.com/bali/
+                  - listitem [ref=e676]:
+                    - link "Bangkok" [ref=e677] [cursor=pointer]:
+                      - /url: https://hba.com/bangkok/
+                  - listitem [ref=e678]:
+                    - link "Clark" [ref=e679] [cursor=pointer]:
+                      - /url: https://hba.com/clark/
+                  - listitem [ref=e680]:
+                    - link "HCMC" [ref=e681] [cursor=pointer]:
+                      - /url: https://hba.com/ho-chi-minh-city/
+                  - listitem [ref=e682]:
+                    - link "Jakarta" [ref=e683] [cursor=pointer]:
+                      - /url: https://hba.com/jakarta/
+                  - listitem [ref=e684]:
+                    - link "Kuala Lumpur" [ref=e685] [cursor=pointer]:
+                      - /url: https://hba.com/kualalumpur/
+                  - listitem [ref=e686]:
+                    - link "Manila" [ref=e687] [cursor=pointer]:
+                      - /url: https://hba.com/manila/
+                  - listitem [ref=e688]:
+                    - link "Singapore" [ref=e689] [cursor=pointer]:
+                      - /url: https://hba.com/singapore/
+              - listitem [ref=e690]:
+                - link "South Asia":
+                  - /url: "#"
+                - list [ref=e691]:
+                  - listitem [ref=e692]:
+                    - link "Mumbai" [ref=e693] [cursor=pointer]:
+                      - /url: https://hba.com/mumbai/
+                  - listitem [ref=e694]:
+                    - link "New Delhi" [ref=e695] [cursor=pointer]:
+                      - /url: https://hba.com/new-delhi/
+          - generic [ref=e696]:
+            - generic [ref=e697]:
+              - heading "Subscribe" [level=5] [ref=e698]
+              - generic [ref=e700]:
+                - generic [ref=e702]:
+                  - generic [ref=e703]:
+                    - generic [ref=e704]:
+                      - text: Email
+                      - generic [ref=e705]: "*"
+                    - textbox "Email *" [ref=e707]:
+                      - /placeholder: Email Address*
+                  - generic [ref=e708]:
+                    - generic [ref=e709]:
+                      - text: Country
+                      - generic [ref=e710]: "*"
+                    - generic [ref=e712]:
+                      - generic [ref=e714] [cursor=pointer]: Select Country*
+                      - generic [ref=e717]:
+                        - textbox [ref=e719]
+                        - list [ref=e720]
+                  - group "Consent *" [ref=e721]:
+                    - generic [ref=e722]:
+                      - text: Consent
+                      - generic [ref=e723]: "*"
+                    - generic [ref=e724]:
+                      - checkbox "Yes, I’d like to receive emails from HBA *" [ref=e725]: 
+                      - generic [ref=e726]:
+                        - text: Yes, I’d like to receive emails from HBA
+                        - generic [ref=e727]: "*"
+                - button "Sign Up" [ref=e729] [cursor=pointer]
+            - generic [ref=e730]:
+              - heading "Enquire" [level=5] [ref=e731]
+              - link "Contact Us" [ref=e732] [cursor=pointer]:
+                - /url: https://hba.com/contact/
+            - generic [ref=e733]:
+              - heading "Follow Us" [level=5] [ref=e734]
+              - generic [ref=e735]:
+                - link "Instagram" [ref=e736] [cursor=pointer]:
+                  - /url: https://instagram.com/hirschbednerassociates/
+                - link "Facebook" [ref=e737] [cursor=pointer]:
+                  - /url: https://www.facebook.com/hirschbednerassociates
+                - link "WeChat" [ref=e738] [cursor=pointer]:
+                  - /url: "#wechat"
+                - link "LinkedIn" [ref=e739] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/hba-design/
+                - link "Pinterest" [ref=e740] [cursor=pointer]:
+                  - /url: https://www.pinterest.com/hirschbednerassociates/
+                - link "Youtube" [ref=e741] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@hba-design
+                - link "小红书" [ref=e742] [cursor=pointer]:
+                  - /url: https://www.xiaohongshu.com/user/profile/657bc0c70000000019012cab
+      - paragraph [ref=e745]:
+        - text: Copyright © 2026 HBA. All Rights Reserved |
+        - link "Privacy Policy" [ref=e746] [cursor=pointer]:
+          - /url: https://hba.com/privacy-policy/
+        - text: "| This site is protected by reCAPTCHA and the Google"
+        - link "Privacy Policy" [ref=e747] [cursor=pointer]:
+          - /url: https://policies.google.com/privacy
+        - text: and
+        - link "Terms of Service" [ref=e748] [cursor=pointer]:
+          - /url: https://policies.google.com/terms
+        - text: apply.
+  - img
+  - generic:
+    - generic:
+      - link:
+        - /url: "#"
+        - img
+    - generic:
+      - img
+  - generic:
+    - img "Back To Top"

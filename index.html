@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="OST-RICH designs elevated residential and hospitality interiors shaped by atmosphere, precision, and material richness."
+  >
+  <title>OST-RICH Interiors</title>
+  <script>
+    (() => {
+      const { hash, pathname, search } = window.location;
+
+      if (!hash) {
+        return;
+      }
+
+      window.__ostRichInitialHash = hash;
+
+      if ("scrollRestoration" in window.history) {
+        window.history.scrollRestoration = "manual";
+      }
+
+      window.history.replaceState(null, "", `${pathname}${search}`);
+      window.scrollTo(0, 0);
+    })();
+  </script>
+
+  <!-- Critical inline CSS: prevents flash of unstyled content before the main bundle loads -->
+  <style>
+    body { background: #081015; margin: 0; }
+    .intro {
+      background: linear-gradient(180deg, rgba(4,7,10,0.98), rgba(8,14,18,0.98));
+      position: fixed;
+      inset: 0;
+      z-index: 999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .page-shell { opacity: 0; }
+  </style>
+</head>
+<body>
+  <div class="intro" aria-hidden="true">
+    <div class="intro-content">
+      <img
+        src="/images/logo.png"
+        alt="OST-RICH"
+        class="intro-logo-image"
+      >
+      <div class="intro-line"></div>
+    </div>
+  </div>
+
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="OST-RICH home">
+        <img src="/images/logo.png" alt="OST-RICH logo">
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-icon" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#leadership">Leadership</a>
+        <a href="#projects">Projects</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#process">Process</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="video-slider" aria-hidden="true">
+          <video class="hero-video active" autoplay muted loop playsinline>
+            <source src="/videos/hero1.mp4" type="video/mp4">
+          </video>
+          <video class="hero-video" autoplay muted loop playsinline>
+            <source src="/videos/hero2.mp4" type="video/mp4">
+          </video>
+          <video class="hero-video" autoplay muted loop playsinline>
+            <source src="/videos/hero3.mp4" type="video/mp4">
+          </video>
+          <video class="hero-video" autoplay muted loop playsinline>
+            <source src="/videos/hero4.mp4" type="video/mp4">
+          </video>
+          <video class="hero-video" autoplay muted loop playsinline>
+            <source src="/videos/hero5.mp4" type="video/mp4">
+          </video>
+          <video class="hero-video" autoplay muted loop playsinline>
+            <source src="/videos/hero6.mp4" type="video/mp4">
+          </video>
+          <video class="hero-video" autoplay muted loop playsinline>
+            <source src="/videos/hero7.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <h1 class="hero-title-sequence" aria-label="Design that gives form to emotion.">
+              <span class="hero-title-line">Where</span>
+              <span class="hero-title-line">emotion becomes</span>
+              <span class="hero-title-line">architecture.</span>
+            </h1>
+            <p class="hero-description">
+              OST-RICH shapes intimate worlds through architectural calm, tactile materiality, and a refined sense
+              of arrival. Every interior is composed to feel lasting, personal, and quietly unforgettable.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects">Explore Signature Projects</a>
+              <a class="button button-secondary" href="#manifesto">Read Our Manifesto</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-manifesto" id="manifesto">
+        <div class="manifesto-split">
+          <div class="manifesto-editorial reveal">
+            <div class="section-heading manifesto-heading">
+              <p class="eyebrow">Manifesto</p>
+              <h2>Luxury should feel<br>enveloping,<br>not performative.</h2>
+            </div>
+            <p class="manifesto-intro">
+              We are interested in the hush before guests speak, the warmth of a corridor at dusk, and the kind of detail that is noticed only because the room feels undeniably complete.
+            </p>
+            <a class="manifesto-link" href="#projects">Explore Our Philosophy</a>
+          </div>
+
+          <figure class="manifesto-visual reveal">
+            <img
+              src="/images/manifesto-editorial.png"
+              alt="Sunlit coastal interior with an infinity pool, quiet seating, and warm architectural framing"
+              loading="lazy"
+            >
+          </figure>
+        </div>
+      </section>
+
+      <section class="section section-about section-light" id="about" data-header-theme="light">
+        <div class="about-split">
+          <div class="about-editorial reveal">
+            <div class="section-heading about-heading">
+              <p class="eyebrow">About OST-RICH</p>
+              <h2>Where Luxury Meets Simplicity.</h2>
+            </div>
+            <p class="about-intro">
+              We design residences and hospitality spaces that feel quietly luxurious, emotionally intelligent, and deeply personal.
+            </p>
+            <p class="about-meta">Founded in Bangalore &nbsp;&bull;&nbsp; Residential &nbsp;&bull;&nbsp; Hospitality</p>
+            <a class="about-link" href="#process">Explore Our Process</a>
+          </div>
+
+          <figure class="about-visual reveal">
+            <img
+              class="about-visual-base"
+              src="/images/about-editorial.png"
+              alt="OST-RICH interior with a calm architectural lounge setting"
+              loading="lazy"
+            >
+            <img
+              class="about-visual-reveal"
+              src="/images/about-editorial.png"
+              alt=""
+              aria-hidden="true"
+              loading="lazy"
+            >
+          </figure>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <span class="copy-rule" aria-hidden="true"></span>
+            <p>
+              Before form, there is feeling. We choreograph arrival, perspective, light, and atmosphere—creating interiors that feel quietly luxurious and deeply intentional.
+            </p>
+            <span class="copy-rule" aria-hidden="true"></span>
+            <p>
+              Luxury is the result of countless decisions made with restraint.
+The finest spaces never need to announce themselves.
+            </p>
+          </div>
+
+          <div class="about-photo-panel">
+            <img
+              src="/images/about-section-bg.jpg"
+              alt="Sunlit travertine interior with dappled leaf shadows"
+              loading="lazy"
+            >
+            <div class="about-card reveal">
+              <p class="about-card-title">What clients come to us for</p>
+              <ul class="feature-list">
+                <li>
+                  <span class="feature-icon" aria-hidden="true">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M3 9.5L12 3l9 6.5V21a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5z"/>
+                      <path d="M9 22V12h6v10"/>
+                    </svg>
+                  </span>
+                  <span>Luxury homes with a stronger emotional identity than typical contemporary interiors</span>
+                </li>
+                <li>
+                  <span class="feature-icon" aria-hidden="true">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M2 18h20"/>
+                      <path d="M4 18V9a8 8 0 0 1 16 0v9"/>
+                      <path d="M2 21h20"/>
+                    </svg>
+                  </span>
+                  <span>Hospitality spaces that photograph beautifully and still feel human in person</span>
+                </li>
+                <li>
+                  <span class="feature-icon" aria-hidden="true">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="3" y="3" width="7" height="7" rx="1"/>
+                      <rect x="14" y="3" width="7" height="7" rx="1"/>
+                      <rect x="3" y="14" width="7" height="7" rx="1"/>
+                      <rect x="14" y="14" width="7" height="7" rx="1"/>
+                    </svg>
+                  </span>
+                  <span>Refined palettes built from stone, timber, metal, fabric, and silence</span>
+                </li>
+                <li>
+                  <span class="feature-icon" aria-hidden="true">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="12" cy="12" r="9"/>
+                      <line x1="12" y1="3" x2="12" y2="5"/>
+                      <line x1="12" y1="19" x2="12" y2="21"/>
+                      <path d="M14.5 9.5L9 15l2.5-5.5 5.5-2.5-2.5 5.5z"/>
+                    </svg>
+                  </span>
+                  <span>End-to-end creative direction that keeps the original vision intact</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-leadership section-light" id="leadership" data-header-theme="light">
+        <div class="leadership-shell reveal">
+          <div class="leadership-heading">
+            <p class="eyebrow">Design Leadership</p>
+            <h2>Three perspectives. One design philosophy.</h2>
+            <p class="leadership-intro">
+              At OST-RICH Beyond materials and dimensions lies atmosphere—the invisible quality that transforms a space into an experience. That pursuit guides everything we do.
+            </p>
+          </div>
+
+          <div class="leadership-grid">
+            <button
+              class="leadership-card"
+              type="button"
+              data-profile="creative-direction"
+              aria-haspopup="dialog"
+              aria-controls="leadership-modal"
+            >
+              <span class="leadership-portrait">
+                <img
+                  class="leadership-portrait-image"
+                  src="/images/team/Pruthvi Shetty.png"
+                  alt="Creative Direction portrait"
+                >
+              </span>
+              <span class="leadership-meta">OST-RICH | Co-Founder</span>
+              <strong class="leadership-name">Pruthvi Shetty</strong>
+              <span class="leadership-role">Founder’s narrative, spatial mood, and final visual authority</span>
+            </button>
+
+            <button
+              class="leadership-card"
+              type="button"
+              data-profile="material-direction"
+              aria-haspopup="dialog"
+              aria-controls="leadership-modal"
+            >
+              <span class="leadership-portrait">
+                <img
+                  class="leadership-portrait-image"
+                  src="/images/team/Gautham Shetty.png"
+                  alt="Material Direction portrait"
+                >
+              </span>
+              <span class="leadership-meta">OST-RICH | Co-Founder</span>
+              <strong class="leadership-name">Gautham Shetty</strong>
+              <span class="leadership-role">Finishes, furniture, lighting, styling, and tactile consistency</span>
+            </button>
+
+            <button
+              class="leadership-card"
+              type="button"
+              data-profile="client-experience"
+              aria-haspopup="dialog"
+              aria-controls="leadership-modal"
+            >
+              <span class="leadership-portrait">
+                <img
+                  class="leadership-portrait-image"
+                  src="/images/team/Shrihari.png"
+                  alt="Client Experience portrait"
+                >
+              </span>
+              <span class="leadership-meta">OST-RICH | Co-Founder</span>
+              <strong class="leadership-name">Shrihari</strong>
+              <span class="leadership-role">Communication, Coordination, and Team Building</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-projects section-light" id="projects" data-header-theme="light">
+
+        <!-- Project slider: editorial split layout -->
+        <div class="project-slider reveal">
+
+          <!-- Left info panel -->
+          <div class="ps-left">
+            <p class="eyebrow">Projects</p>
+            <h2 class="projects-section-title">Signature<br>works.</h2>
+            <div class="project-split-rule"></div>
+            <p class="ps-desc">Thoughtfully designed spaces that seamlessly blend luxury, functionality and timeless elegance.</p>
+            <div class="ps-counter-row">
+              <div class="ps-counter">
+                <span class="ps-current">01</span>
+                <span class="ps-sep"> / </span>
+                <span class="ps-total">04</span>
+              </div>
+              <div class="ps-arrows">
+                <button class="ps-arrow ps-prev" aria-label="Previous project">&#8592;</button>
+                <button class="ps-arrow ps-next" aria-label="Next project">&#8594;</button>
+              </div>
+            </div>
+            <div class="ps-card">
+              <div class="ps-card-accent"></div>
+              <div class="ps-card-info">
+                <p class="ps-card-type">Villa &amp; Hospitality</p>
+                <h3 class="ps-card-name">LemonTree Coorg</h3>
+                <p class="ps-card-location">Coorg, India &bull; Completed</p>
+              </div>
+            </div>
+            <a class="ps-view-link" href="/project-lemon-tree-coorg.html">View Project</a>
+          </div>
+
+          <!-- Right image stage -->
+          <div class="ps-stage">
+            <div class="ps-slides">
+              <div class="ps-slide ps-slide--active">
+                <img src="/images/projects/lemon-tree-coorg/lemon-tree-coorg-aerial.jpeg" alt="LemonTree Coorg" loading="lazy">
+              </div>
+              <div class="ps-slide">
+                <img src="/images/expertise-residential.jpeg" alt="Private Residence" loading="lazy">
+              </div>
+              <div class="ps-slide">
+                <img src="/images/expertise-hospitality.jpeg" alt="Boutique Hotel" loading="lazy">
+              </div>
+              <div class="ps-slide">
+                <img src="/images/projects/lemon-tree-coorg/new-03-plunge-pool-balcony.jpeg" alt="Penthouse Residence" loading="lazy">
+              </div>
+            </div>
+            <div class="ps-stage-nav">
+              <button class="ps-stage-btn ps-stage-prev">Prev Project</button>
+              <button class="ps-stage-btn ps-stage-next">Next Project</button>
+              <button class="ps-stage-plus" aria-label="View project">+</button>
+            </div>
+          </div>
+
+        </div>
+
+        <script>
+        (function () {
+          var projects = [
+            { type: 'Villa &amp; Hospitality', name: 'LemonTree Coorg', location: 'Coorg, India &bull; Completed', href: '/project-lemon-tree-coorg.html' },
+            { type: 'Residential', name: 'Private Residence', location: 'Bangalore, India &bull; In Progress', href: null },
+            { type: 'Hospitality', name: 'Boutique Hotel', location: 'Goa, India &bull; Coming Soon', href: null },
+            { type: 'Residential', name: 'Penthouse Residence', location: 'Mumbai, India &bull; Coming Soon', href: null }
+          ];
+          var idx = 0;
+
+          function goTo(n) {
+            var slides = document.querySelectorAll('.ps-slide');
+            slides[idx].classList.remove('ps-slide--active');
+            idx = (n + projects.length) % projects.length;
+            slides[idx].classList.add('ps-slide--active');
+
+            var p = projects[idx];
+            document.querySelector('.ps-current').textContent = String(idx + 1).padStart(2, '0');
+            document.querySelector('.ps-card-type').innerHTML = p.type;
+            document.querySelector('.ps-card-name').textContent = p.name;
+            document.querySelector('.ps-card-location').innerHTML = p.location;
+
+            var link = document.querySelector('.ps-view-link');
+            var plus = document.querySelector('.ps-stage-plus');
+            if (p.href) {
+              link.href = p.href;
+              link.style.opacity = '1';
+              link.style.pointerEvents = '';
+              plus.onclick = function () { window.location = p.href; };
+            } else {
+              link.href = '#';
+              link.style.opacity = '0.35';
+              link.style.pointerEvents = 'none';
+              plus.onclick = null;
+            }
+          }
+
+          document.querySelector('.ps-prev').addEventListener('click', function () { goTo(idx - 1); });
+          document.querySelector('.ps-next').addEventListener('click', function () { goTo(idx + 1); });
+          document.querySelector('.ps-stage-prev').addEventListener('click', function () { goTo(idx - 1); });
+          document.querySelector('.ps-stage-next').addEventListener('click', function () { goTo(idx + 1); });
+          var plus = document.querySelector('.ps-stage-plus');
+          plus.addEventListener('click', function () {
+            var p = projects[idx];
+            if (p.href) window.location = p.href;
+          });
+        })();
+        </script>
+
+      </section>
+
+      <section class="section section-expertise section-light" id="expertise" data-header-theme="light">
+        <div class="expertise-hero">
+          <img class="expertise-hero-bg" src="/images/expertise-clean2.png" alt="Calm sunlit architectural interior with curved staircase and sculptural planting">
+          <div class="expertise-hero-overlay"></div>
+          <div class="section-heading expertise-heading reveal">
+            <p class="eyebrow">Expertise</p>
+            <h2>Spatial beauty, resolved with precision.</h2>
+          </div>
+        </div>
+
+        <div class="expertise-grid">
+          <article class="expertise-card reveal">
+            <figure class="expertise-card-image">
+              <img src="/images/expertise-residential.jpeg" alt="Residential interior with stone wall and sculptural artwork" loading="lazy">
+            </figure>
+            <div class="expertise-card-content">
+              <div class="expertise-card-num">01</div>
+              <h3>Residential Interiors</h3>
+              <p>Primary homes, penthouses, villas, and retreats with tailored planning and hospitality-level finish quality.</p>
+              <span class="expertise-card-arrow">→</span>
+            </div>
+          </article>
+          <article class="expertise-card reveal">
+            <figure class="expertise-card-image">
+              <img src="/images/expertise-hospitality.jpeg" alt="Luxury hotel lobby with chandelier and high ceilings" loading="lazy">
+            </figure>
+            <div class="expertise-card-content">
+              <div class="expertise-card-num">02</div>
+              <h3>Hospitality Spaces</h3>
+              <p>Boutique hotels, lounges, suites, and social environments that trade in mood, memory, and spatial rhythm.</p>
+              <span class="expertise-card-arrow">→</span>
+            </div>
+          </article>
+          <article class="expertise-card reveal">
+            <figure class="expertise-card-image">
+              <img src="/images/expertise-materials.jpeg" alt="Material samples including stone, timber, fabric and hardware" loading="lazy">
+            </figure>
+            <div class="expertise-card-content">
+              <div class="expertise-card-num">03</div>
+              <h3>Material &amp; FF&amp;E Direction</h3>
+              <p>Furniture, lighting, textiles, accessories, and art chosen as one coherent emotional language.</p>
+              <span class="expertise-card-arrow">→</span>
+            </div>
+          </article>
+          <article class="expertise-card reveal">
+            <figure class="expertise-card-image">
+              <img src="/images/expertise-concept3.jpeg" alt="Designer reviewing blueprints and material boards" loading="lazy">
+            </figure>
+            <div class="expertise-card-content">
+              <div class="expertise-card-num">04</div>
+              <h3>Concept to Completion</h3>
+              <p>From early concept framing and planning strategy to detailing, finish review, styling, and final curation.</p>
+              <span class="expertise-card-arrow">→</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-signature section-light" data-header-theme="light">
+        <div class="signature-split">
+          <div class="section-heading signature-heading reveal">
+            <p class="eyebrow">Signature Qualities</p>
+            <h2>The visual codes we return to again and again.</h2>
+          </div>
+
+          <figure class="signature-visual reveal">
+            <img
+              src="/images/expertise-clean.png"
+              alt="Softly lit sculptural interior with an archway, pale stone steps, and a planted vase"
+              loading="lazy"
+            >
+          </figure>
+        </div>
+
+        <div class="signature-ribbon reveal">
+          <span>Bronzed metals</span>
+          <span>Low-glare lighting</span>
+          <span>Architectural timber</span>
+          <span>Quiet stone</span>
+          <span>Deep upholstery</span>
+          <span>Arrival drama</span>
+          <span>Gallery calm</span>
+          <span>Hospitality warmth</span>
+        </div>
+      </section>
+
+      <section class="section section-process section-light" id="process" data-header-theme="light">
+        <div class="process-shell">
+          <div class="section-heading process-heading reveal">
+            <p class="eyebrow">Process</p>
+            <h2>Every space begins with a feeling and ends with a purpose.</h2>
+          </div>
+
+          <div class="process-grid">
+            <article class="process-step reveal">
+              <div class="process-media process-media-01" aria-hidden="true"></div>
+              <span class="process-index">01</span>
+              <h3>Atmosphere Definition</h3>
+              <p>We define the emotional register first: references, hosting style, personal rituals, and how the room should feel after sunset.</p>
+            </article>
+            <article class="process-step reveal">
+              <div class="process-media process-media-02" aria-hidden="true"></div>
+              <span class="process-index">02</span>
+              <h3>Spatial Composition</h3>
+              <p>Circulation, zoning, proportions, and architectural gestures are refined so the plan carries atmosphere, not just function.</p>
+            </article>
+            <article class="process-step reveal">
+              <div class="process-media process-media-03" aria-hidden="true"></div>
+              <span class="process-index">03</span>
+              <h3>Material Precision</h3>
+              <p>Finishes, joinery, lighting, furniture, and styling are brought into one disciplined and highly tactile visual system.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-testimonial section-light" data-header-theme="light">
+        <div class="testimonial-card reveal">
+          <p class="eyebrow">Client Sentiment</p>
+          <blockquote>
+            “What stood out was not just taste, but control. Every room felt calm, resolved, and unmistakably ours.”
+          </blockquote>
+          <p class="testimonial-credit">Private Client, Luxury Residence</p>
+        </div>
+      </section>
+
+      <section class="section section-cta section-light" id="contact" data-header-theme="light">
+        <div class="cta-card reveal">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>If you want a space with presence, warmth, and lasting quiet confidence, let’s talk.</h2>
+          </div>
+          <div class="cta-copy">
+            <p>
+              We work best with clients who want more than a beautiful room. They want a complete atmosphere,
+              carried through planning, detailing, and the final emotional effect of the space.
+            </p>
+            <div class="contact-actions">
+              <a class="button button-primary" href="mailto:ostrichinteriors@gmail.com">ostrichinteriors@gmail.com</a>
+              <button
+                class="button button-secondary contact-copy-button"
+                type="button"
+                data-copy-email="ostrichinteriors@gmail.com"
+              >
+                Copy Email
+              </button>
+            </div>
+            <p class="contact-copy-feedback" data-copy-feedback aria-live="polite"></p>
+          </div>
+          <div class="social-links" aria-label="Social and contact links">
+            <p class="social-links-label">Connect</p>
+            <a
+              href="https://www.instagram.com/ost_rich_interiors/?utm_source=ig_web_button_share_sheet"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="social-link-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="presentation">
+                  <rect x="3.5" y="3.5" width="17" height="17" rx="5"></rect>
+                  <circle cx="12" cy="12" r="4.25"></circle>
+                  <circle cx="17.6" cy="6.4" r="0.9" class="social-link-icon-fill"></circle>
+                </svg>
+              </span>
+              <span>Instagram</span>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ost-rich-interiors-23aa60414/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="social-link-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="presentation">
+                  <rect x="4" y="8.5" width="3.2" height="11.5" rx="1"></rect>
+                  <rect x="4" y="4" width="3.2" height="3.2" rx="1"></rect>
+                  <path d="M10 8.5h3.1v1.7c.7-1.2 2-2 3.8-2 3 0 4.6 1.8 4.6 5.3V20H18v-5.8c0-1.8-.7-2.7-2.2-2.7-1.6 0-2.5 1.1-2.5 3.1V20H10z"></path>
+                </svg>
+              </span>
+              <span>LinkedIn</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div class="leadership-modal" id="leadership-modal" aria-hidden="true">
+    <div class="leadership-modal-backdrop" data-close-modal></div>
+    <div class="leadership-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="leadership-modal-name" tabindex="-1">
+      <button class="leadership-modal-close" type="button" aria-label="Close leadership profile" data-close-modal>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="leadership-modal-visual">
+        <div class="leadership-modal-portrait">
+          <img
+            class="leadership-modal-portrait-image"
+            src="/images/team/creative-direction-bw.png"
+            alt=""
+          >
+        </div>
+      </div>
+
+      <div class="leadership-modal-content">
+        <p class="leadership-modal-kicker" id="leadership-modal-kicker"></p>
+        <h3 class="leadership-modal-name" id="leadership-modal-name"></h3>
+        <p class="leadership-modal-role" id="leadership-modal-role"></p>
+        <div class="leadership-modal-body" id="leadership-modal-body"></div>
+        <div class="leadership-modal-actions">
+          <a class="button button-secondary" href="#contact">Book a Consultation</a>
+          <a class="button button-primary" href="mailto:ostrichinteriors@gmail.com">Contact Studio</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+  <!-- Welcome audio -->
+  <audio id="welcome-audio" src="/welcome.mp3" preload="auto"></audio>
+  <script>
+    (function () {
+      if (sessionStorage.getItem('ost-welcome-played')) return;
+      sessionStorage.setItem('ost-welcome-played', '1');
+      var audio = document.getElementById('welcome-audio');
+      function play() { audio.play().catch(function(){}); }
+      var p = audio.play();
+      if (p !== undefined) {
+        p.catch(function () {
+          ['click', 'touchstart', 'scroll'].forEach(function (e) {
+            window.addEventListener(e, play, { once: true, passive: true });
+          });
+        });
+      }
+    })();
+  </script>
+</body>
+</html>

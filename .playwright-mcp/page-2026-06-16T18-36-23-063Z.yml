@@ -1,0 +1,236 @@
+- generic [active] [ref=e1]:
+  - img [ref=e4]
+  - generic [ref=e6]:
+    - banner [ref=e7]:
+      - link "OST-RICH home" [ref=e8] [cursor=pointer]:
+        - /url: "#top"
+        - img "OST-RICH logo" [ref=e9]
+      - navigation "Primary navigation" [ref=e10]:
+        - link "About" [ref=e11] [cursor=pointer]:
+          - /url: "#about"
+        - link "Leadership" [ref=e12] [cursor=pointer]:
+          - /url: "#leadership"
+        - link "Projects" [ref=e13] [cursor=pointer]:
+          - /url: "#projects"
+        - link "Expertise" [ref=e14] [cursor=pointer]:
+          - /url: "#expertise"
+        - link "Process" [ref=e15] [cursor=pointer]:
+          - /url: "#process"
+        - link "Contact" [ref=e16] [cursor=pointer]:
+          - /url: "#contact"
+    - main [ref=e17]:
+      - generic [ref=e29]:
+        - heading "Design that gives form to emotion." [level=1] [ref=e30]:
+          - generic [ref=e31]: Design
+          - generic [ref=e32]: that gives
+          - generic [ref=e33]: form to emotion.
+        - paragraph [ref=e34]: OST-RICH shapes intimate worlds through architectural calm, tactile materiality, and a refined sense of arrival. Every interior is composed to feel lasting, personal, and quietly unforgettable.
+        - generic [ref=e35]:
+          - link "Explore Signature Projects" [ref=e36] [cursor=pointer]:
+            - /url: "#projects"
+          - link "Read Our Manifesto" [ref=e37] [cursor=pointer]:
+            - /url: "#manifesto"
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - paragraph [ref=e40]: Manifesto
+          - heading "Luxury should feel enveloping, not performative." [level=2] [ref=e41]
+        - generic [ref=e42]:
+          - article [ref=e43]:
+            - paragraph [ref=e44]: We are interested in the hush before guests speak, the warmth of a corridor at dusk, and the kind of detail that is noticed only because the room feels undeniably complete.
+          - article [ref=e45]:
+            - generic [ref=e46]:
+              - generic [ref=e47]: Warm
+              - generic [ref=e48]: Palettes that favor depth, touch, and evening light
+            - generic [ref=e49]:
+              - generic [ref=e50]: Tailored
+              - generic [ref=e51]: Layouts and finishes tuned to lifestyle, hosting, and ritual
+            - generic [ref=e52]:
+              - generic [ref=e53]: Enduring
+              - generic [ref=e54]: Design decisions made for longevity rather than trend cycles
+      - generic [ref=e55]:
+        - generic [ref=e56]:
+          - paragraph [ref=e57]: About OST-RICH
+          - heading "Our work feels closer to a private members club than a catalog of expensive objects." [level=2] [ref=e58]
+        - generic [ref=e59]:
+          - generic [ref=e60]:
+            - paragraph [ref=e61]: "We begin by writing the emotional script of a space: how it should receive someone at the door, where the eye should rest, how a surface should hold shadow, and when the room should feel intimate versus expansive."
+            - paragraph [ref=e62]: Only then do we shape the palette, joinery, furniture language, and lighting hierarchy. The result is a visual world that feels deeply intentional without becoming cold or overly staged.
+          - generic [ref=e63]:
+            - paragraph [ref=e64]: What clients come to us for
+            - list [ref=e65]:
+              - listitem [ref=e66]: Luxury homes with a stronger emotional identity than typical contemporary interiors
+              - listitem [ref=e67]: Hospitality spaces that photograph beautifully and still feel human in person
+              - listitem [ref=e68]: Refined palettes built from stone, timber, metal, fabric, and silence
+              - listitem [ref=e69]: End-to-end creative direction that keeps the original vision intact
+      - generic [ref=e71]:
+        - generic [ref=e72]:
+          - paragraph [ref=e73]: Design Leadership
+          - heading "The people-facing intelligence behind the atmosphere." [level=2] [ref=e74]
+          - paragraph [ref=e75]: OST-RICH is led through a tight studio structure that keeps creative authorship, material discipline, and client experience aligned from first conversation to final styling.
+        - generic [ref=e76]:
+          - button "Creative Direction portrait OST-RICH | Co-Founder Pruthvi Shetty Founder’s narrative, spatial mood, and final visual authority" [ref=e77] [cursor=pointer]:
+            - img "Creative Direction portrait" [ref=e79]
+            - generic [ref=e80]: OST-RICH | Co-Founder
+            - strong [ref=e81]: Pruthvi Shetty
+            - generic [ref=e82]: Founder’s narrative, spatial mood, and final visual authority
+          - button "Material Direction portrait OST-RICH | Co-Founder Gautham Shetty Finishes, furniture, lighting, styling, and tactile consistency" [ref=e83] [cursor=pointer]:
+            - img "Material Direction portrait" [ref=e85]
+            - generic [ref=e86]: OST-RICH | Co-Founder
+            - strong [ref=e87]: Gautham Shetty
+            - generic [ref=e88]: Finishes, furniture, lighting, styling, and tactile consistency
+          - button "Client Experience portrait OST-RICH | Co-Founder Shrihari Communication, Coordination, and Team Building" [ref=e89] [cursor=pointer]:
+            - img "Client Experience portrait" [ref=e91]
+            - generic [ref=e92]: OST-RICH | Co-Founder
+            - strong [ref=e93]: Shrihari
+            - generic [ref=e94]: Communication, Coordination, and Team Building
+      - generic [ref=e95]:
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - paragraph [ref=e98]: Featured Project
+            - heading "LemonTree Coorg" [level=2] [ref=e99]
+            - paragraph [ref=e100]: A luxury villa retreat in Kathlekadu, Coorg, where OST-RICH shaped the interiors to feel landscape-led, hospitality-minded, and quietly immersive.
+          - generic [ref=e101]:
+            - generic [ref=e102]:
+              - generic [ref=e103]: 16 Acres
+              - generic [ref=e104]: Landscape-led masterplan
+            - generic [ref=e105]:
+              - generic [ref=e106]: 108 Villas
+              - generic [ref=e107]: Private luxury retreats
+            - generic [ref=e108]:
+              - generic [ref=e109]: 25,000 Sq. Ft.
+              - generic [ref=e110]: Clubhouse and social core
+            - generic [ref=e111]:
+              - generic [ref=e112]: Luxury Retreat
+              - generic [ref=e113]: Villa and hospitality interiors
+        - generic [ref=e114]:
+          - generic [ref=e116]:
+            - figure [ref=e117]:
+              - img "LemonTree Coorg arrival entrance in the rain" [ref=e118]
+            - figure [ref=e119]:
+              - img "LemonTree Coorg masterplan view with villas and central clubhouse" [ref=e120]
+            - figure [ref=e121]:
+              - img "LemonTree Coorg clubhouse lobby interior" [ref=e122]
+            - figure [ref=e123]:
+              - img "LemonTree Coorg dining hall interior" [ref=e124]
+            - figure [ref=e125]:
+              - img "LemonTree Coorg luxury villas glowing in the forest at night" [ref=e126]
+            - generic:
+              - article:
+                - paragraph: 01 / Arrival
+                - heading "Arrival, cooled by rain and warm stone." [level=3]
+              - article:
+                - paragraph: 02 / Masterplan
+                - heading "Hospitality, privacy, and terrain held in one frame." [level=3]
+              - article:
+                - paragraph: 03 / Clubhouse
+                - heading "The clubhouse carries warmth before spectacle." [level=3]
+              - article:
+                - paragraph: 04 / Dining
+                - heading "Dining was composed as evening atmosphere." [level=3]
+              - article:
+                - paragraph: 05 / Villas
+                - heading "Private villas, quieter than the landscape around them." [level=3]
+          - generic [ref=e127]:
+            - article [ref=e128]:
+              - generic [ref=e129]: Arrival
+            - article [ref=e130]:
+              - generic [ref=e131]: Masterplan
+            - article [ref=e132]:
+              - generic [ref=e133]: Clubhouse
+            - article [ref=e134]:
+              - generic [ref=e135]: Dining
+            - article [ref=e136]:
+              - generic [ref=e137]: Villas
+        - generic [ref=e138]:
+          - paragraph [ref=e139]: Selected Interior Moments
+          - generic [ref=e140]:
+            - figure [ref=e141]:
+              - img "LemonTree Coorg bar and lounge interior" [ref=e142]
+            - figure [ref=e143]:
+              - img "LemonTree Coorg villa lounge interior" [ref=e144]
+            - figure [ref=e145]:
+              - img "LemonTree Coorg bedroom opening to balcony views" [ref=e146]
+      - generic [ref=e147]:
+        - generic [ref=e148]:
+          - paragraph [ref=e149]: Expertise
+          - heading "Spatial beauty, resolved with precision." [level=2] [ref=e150]
+        - generic [ref=e151]:
+          - article [ref=e152]:
+            - heading "Residential Interiors" [level=3] [ref=e153]
+            - paragraph [ref=e154]: Primary homes, penthouses, villas, and retreats with tailored planning and hospitality-level finish quality.
+          - article [ref=e155]:
+            - heading "Hospitality Spaces" [level=3] [ref=e156]
+            - paragraph [ref=e157]: Boutique hotels, lounges, suites, and social environments that trade in mood, memory, and spatial rhythm.
+          - article [ref=e158]:
+            - heading "Material & FF&E Direction" [level=3] [ref=e159]
+            - paragraph [ref=e160]: Furniture, lighting, textiles, accessories, and art chosen as one coherent emotional language.
+          - article [ref=e161]:
+            - heading "Concept to Completion" [level=3] [ref=e162]
+            - paragraph [ref=e163]: From early concept framing and planning strategy to detailing, finish review, styling, and final curation.
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - paragraph [ref=e166]: Signature Qualities
+          - heading "The visual codes we return to again and again." [level=2] [ref=e167]
+        - generic [ref=e168]:
+          - generic [ref=e169]: Bronzed metals •
+          - generic [ref=e170]: Low-glare lighting •
+          - generic [ref=e171]: Architectural timber •
+          - generic [ref=e172]: Quiet stone •
+          - generic [ref=e173]: Deep upholstery •
+          - generic [ref=e174]: Arrival drama •
+          - generic [ref=e175]: Gallery calm •
+          - generic [ref=e176]: Hospitality warmth •
+      - generic [ref=e177]:
+        - generic [ref=e178]:
+          - paragraph [ref=e179]: Process
+          - heading "Our process turns instinct into spatial clarity, then into exacting detail." [level=2] [ref=e180]
+        - generic [ref=e181]:
+          - article [ref=e182]:
+            - generic [ref=e183]: "01"
+            - heading "Atmosphere Definition" [level=3] [ref=e184]
+            - paragraph [ref=e185]: "We define the emotional register first: references, hosting style, personal rituals, and how the room should feel after sunset."
+          - article [ref=e186]:
+            - generic [ref=e187]: "02"
+            - heading "Spatial Composition" [level=3] [ref=e188]
+            - paragraph [ref=e189]: Circulation, zoning, proportions, and architectural gestures are refined so the plan carries atmosphere, not just function.
+          - article [ref=e190]:
+            - generic [ref=e191]: "03"
+            - heading "Material Precision" [level=3] [ref=e192]
+            - paragraph [ref=e193]: Finishes, joinery, lighting, furniture, and styling are brought into one disciplined and highly tactile visual system.
+      - generic [ref=e195]:
+        - paragraph [ref=e196]: Client Sentiment
+        - blockquote [ref=e197]: “What stood out was not just taste, but control. Every room felt calm, resolved, and unmistakably ours.”
+        - paragraph [ref=e198]: Private Client, Luxury Residence
+      - generic [ref=e200]:
+        - generic [ref=e201]:
+          - paragraph [ref=e202]: Contact
+          - heading "If you want a space with presence, warmth, and lasting quiet confidence, let’s talk." [level=2] [ref=e203]
+        - generic [ref=e204]:
+          - paragraph [ref=e205]: We work best with clients who want more than a beautiful room. They want a complete atmosphere, carried through planning, detailing, and the final emotional effect of the space.
+          - generic [ref=e206]:
+            - link "ostrichinteriors@gmail.com" [ref=e207] [cursor=pointer]:
+              - /url: mailto:ostrichinteriors@gmail.com
+            - button "Copy Email" [ref=e208]
+          - paragraph [ref=e209]
+        - generic "Social and contact links" [ref=e210]:
+          - paragraph [ref=e211]: Connect
+          - link "Instagram" [ref=e212] [cursor=pointer]:
+            - /url: https://www.instagram.com/ost_rich_interiors/?utm_source=ig_web_button_share_sheet
+            - generic [ref=e217]: Instagram
+          - link "LinkedIn" [ref=e218] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/ost-rich-interiors-23aa60414/
+            - generic [ref=e223]: LinkedIn
+  - generic:
+    - dialog:
+      - button
+      - generic:
+        - paragraph
+        - heading [level=3]
+        - paragraph
+        - generic:
+          - link:
+            - /url: "#contact"
+            - text: Book a Consultation
+          - link:
+            - /url: mailto:ostrichinteriors@gmail.com
+            - text: Contact Studio

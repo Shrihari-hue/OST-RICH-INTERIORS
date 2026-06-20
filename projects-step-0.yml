@@ -1,0 +1,62 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e6]:
+    - banner [ref=e7]:
+      - link "OST-RICH home" [ref=e8] [cursor=pointer]:
+        - /url: "#top"
+        - img "OST-RICH logo" [ref=e9]
+      - navigation "Primary navigation" [ref=e10]:
+        - link "About" [ref=e11] [cursor=pointer]:
+          - /url: "#about"
+        - link "Leadership" [ref=e12] [cursor=pointer]:
+          - /url: "#leadership"
+        - link "Projects" [ref=e13] [cursor=pointer]:
+          - /url: "#projects"
+        - link "Expertise" [ref=e14] [cursor=pointer]:
+          - /url: "#expertise"
+        - link "Process" [ref=e15] [cursor=pointer]:
+          - /url: "#process"
+        - link "Contact" [ref=e16] [cursor=pointer]:
+          - /url: "#contact"
+    - main [ref=e17]:
+      - generic [ref=e29]:
+        - heading "Design that gives form to emotion." [level=1] [ref=e30]
+        - paragraph [ref=e34]: OST-RICH shapes intimate worlds through architectural calm, tactile materiality, and a refined sense of arrival. Every interior is composed to feel lasting, personal, and quietly unforgettable.
+        - generic [ref=e35]
+      - generic [ref=e38]:
+        - generic [ref=e39]
+        - generic [ref=e42]
+      - generic [ref=e55]:
+        - generic [ref=e56]
+        - generic [ref=e59]
+      - generic [ref=e71]:
+        - generic [ref=e72]
+        - generic [ref=e76]
+      - generic [ref=e95]:
+        - generic [ref=e96]
+        - generic [ref=e114]
+        - generic [ref=e138]
+      - generic [ref=e147]:
+        - generic [ref=e148]
+        - generic [ref=e151]
+      - generic [ref=e164]:
+        - generic [ref=e165]
+        - generic [ref=e168]
+      - generic [ref=e177]:
+        - generic [ref=e178]
+        - generic [ref=e181]
+      - generic [ref=e195]:
+        - paragraph [ref=e196]: Client Sentiment
+        - blockquote [ref=e197]: “What stood out was not just taste, but control. Every room felt calm, resolved, and unmistakably ours.”
+        - paragraph [ref=e198]: Private Client, Luxury Residence
+      - generic [ref=e200]:
+        - generic [ref=e201]
+        - generic [ref=e204]
+        - generic "Social and contact links" [ref=e210]
+  - generic:
+    - dialog:
+      - button
+      - generic:
+        - paragraph
+        - heading [level=3]
+        - paragraph
+        - generic
